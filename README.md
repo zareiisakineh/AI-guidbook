@@ -1,2 +1,2 @@
 # AI-guidbook
-KI-bruk for studenter
+KI-bruk for studenter(ny versjon)
