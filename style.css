@@ -215,11 +215,13 @@ a {
   background: var(--card-bg);
   transition: all 0.2s ease;
   text-decoration: none;
+ 
 }
 
 .tile:hover {
   background: var(--primary-light);
   border-color: var(--primary-color);
+   transform: scale(1.07); /* Gjør knappen litt større */
 }
 
 .tile h3 {
@@ -285,4 +287,12 @@ a {
 .contact-info a {
   color: var(--primary-color);
   text-decoration: underline;
+}
+details{
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 14px;
+    background: var(--card-bg);
+    transition: all 0.2s ease;
+    text-decoration: none;
 }
